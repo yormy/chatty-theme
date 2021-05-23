@@ -1,0 +1,25 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+@import "../../../resources/shared/scss/shared/variables";
+@import "../../../resources/shared/scss/demo_4/variables";
+
+
+$brand-primary: #212C61;
+
+
+
+
+$footer-bg: $brand-primary;
+$footer-color : $white;
+
+$navbar-bg: $brand-primary;
+$navbar-link-color : $white;
+
+$sidebar-bg: $brand-primary;
+
+$sidebar-collapse-panel-bg: $brand-primary;
+$navbar-dropdown-header-color: $brand-primary;
+
+
+$theme-colors: (primary: #0033cc, secondary: #dde4eb, success:#19d895, info: #8862e0, warning: #ffaf00, danger: #ff6258, light: #fbfbfb, dark: #252C46);

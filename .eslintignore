@@ -1,0 +1,14 @@
+resources/js/app.js
+resources/js/named-routes.js
+resources/js/bootstrap.js
+
+src/Plugins/encryption.js
+src/Plugins/tunnel_encryption.js
+
+node_modules/*
+tests/*
+vendor/*
+
+package-lock.json
+webpack.mix.js
+**/*.esm.js

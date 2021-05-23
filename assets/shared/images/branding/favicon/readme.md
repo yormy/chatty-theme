@@ -1,0 +1,2 @@
+# favicons
+Generate with : realfavicongenerator

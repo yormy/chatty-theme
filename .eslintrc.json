@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "parser": "babel-eslint"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+      "operator-linebreak" : "off",
+      "no-ignore": "off"
+  },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "map": [
+                    ["@components", "./tests/Browser/support/assets/js/components"]
+//                    ["@config", "./resources/js/config"],
+//                    ["@modules", "./Modules"]
+                ],
+                "extensions": [".js", ".vue", ".json"]
+            }
+        }
+    },
+
+  "root": true
+}
