@@ -524,7 +524,16 @@ input:checked + .slider:before {
   background-color: #0033cc !important;
 }
 
-.marketing {
+.top-notification-bar.system {
+  top: 0px;
+  left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: lightsalmon;
+  height: 30px;
+}
+.top-notification-bar .marketing {
   top: 0px;
   left: 0px;
   padding-top: 0px;
@@ -533,8 +542,7 @@ input:checked + .slider:before {
   background-color: red;
   height: 30px;
 }
-
-.impersonation-warning {
+.top-notification-bar .impersonation-warning {
   top: 0px;
   left: 0px;
   padding-top: 10px;
