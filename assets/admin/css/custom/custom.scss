@@ -111,17 +111,39 @@
     background-color: map_get($theme-colors, 'primary') !important;
 }
 
-.marketing {
-    top: 0px;
-    left:0px;
-    padding-top: 0px;
-    padding-bottom:0px;
-    padding-left: 0px;
-    background-color:red;
-    height: 30px;
+.top-notification-bar {
+
+    &.system {
+        top: 0px;
+        left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        background-color: lightsalmon;
+        height: 30px;
+    }
+
+    &.marketing {
+        top: 0px;
+        left:0px;
+        padding-top: 0px;
+        padding-bottom:0px;
+        padding-left: 0px;
+        background-color:lightblue;
+        height: 30px;
+    }
+
+    &.impersonation-warning {
+        top: 0px;
+        left:0px;
+        padding-top: 10px;
+        padding-bottom:0px;
+        padding-left: 0px;
+        background-color:red;
+        color: black;
+        height: 60px;
+    }
 }
-
-
 
 .loginform {
     min-width:400px;
@@ -155,4 +177,92 @@
         //border-color: purple;
         //border-width: 2px;
     }
+}
+
+
+.submenu-inner {
+    padding-top:70px !important;
+}
+
+.sidebar-inner.ps-enabled.ps {
+    padding-top:60px !important;
+}
+
+.navbar {
+    margin-left:0px;
+    padding-left:15px;
+}
+
+.modal-header
+{
+    &.header-success {
+        background-color: forestgreen;
+        color: white;
+    }
+
+    &.header-warning {
+        background-color: orange;
+        color: white;
+    }
+
+    &.header-danger {
+        background-color: red;
+        color: white;
+    }
+
+    &.header-info {
+        background-color: Blue;
+        color: white;
+    }
+}
+
+//border-color:green;
+
+.v-data-table {
+    tr.v-data-table__expanded {
+
+
+
+        &.v-data-table__expanded__row {
+            border-color: Blue !important;
+            background-color: rgb(196,221,242);
+            border-top-width:4px;
+            border-bottom-width:0px;
+            border-style:solid;
+        }
+
+        &.v-data-table__expanded__content {
+            border-color: Blue !important;
+            border-top-width:0px  !important;;
+            border-bottom-width:4px !important;
+            border-style:solid  !important;;
+            background-color: rgb(196,221,242);
+
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important;
+
+        }
+    }
+}
+
+.sidebar .sidebar-inner .submenu .submenu-inner .nav .nav-item {
+    margin-bottom: 10px;
+}
+
+.nprogress-busy .nprogress-loading {
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0,0,0,0.2);
+}
+
+.nprogress-loading .lds-ripple {
+    display:none
+}
+
+.nprogress-busy .nprogress-loading .lds-ripple {
+    display:block;
 }
