@@ -1,5 +1,5 @@
 {
-    "name": "biomeaning-theme",
+    "name": "chatty-theme",
     "version": "1.0.1",
     "description": "",
     "keywords": [
@@ -9,7 +9,7 @@
     "license": "",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yormy/biomeaning-theme.git"
+        "url": "git+https://gitlab.com/mexion/chatty-theme.git"
     },
     "main": "lib/index.js",
     "module": "lib/index.esm.js",
