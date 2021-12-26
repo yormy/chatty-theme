@@ -11981,10 +11981,10 @@ pre {
   background: white;
 }
 .accordion.basic-accordion .card .card-header a[aria-expanded=true]:before {
-  content: "";
+  content: "\f374";
 }
 .accordion.basic-accordion .card .card-header a[aria-expanded=false]:before {
-  content: "";
+  content: "\f415";
 }
 .accordion.accordion-multiple-outline .card:nth-child(5n+1) {
   border-color: #8862e0;
@@ -12062,10 +12062,10 @@ pre {
   border-bottom: 1px solid #ffffff;
 }
 .accordion.accordion-multiple-outline .card .card-header a[aria-expanded=true]:before {
-  content: "";
+  content: "\f143";
 }
 .accordion.accordion-multiple-outline .card .card-header a[aria-expanded=false]:before {
-  content: "";
+  content: "\f140";
 }
 .accordion.accordion-multiple-filled .card {
   overflow: hidden;
@@ -12128,10 +12128,10 @@ pre {
   color: #ffffff;
 }
 .accordion.accordion-multiple-filled .card .card-header a[aria-expanded=true]:before {
-  content: "";
+  content: "\f143";
 }
 .accordion.accordion-multiple-filled .card .card-header a[aria-expanded=false]:before {
-  content: "";
+  content: "\f140";
 }
 .accordion.accordion-solid-bg .card {
   background: #fbfbfb;
@@ -12148,13 +12148,13 @@ pre {
   background: #fbfbfb;
 }
 .accordion.accordion-solid-bg .card .card-header a[aria-expanded=true]:before {
-  content: "";
+  content: "\f143";
 }
 .accordion.accordion-solid-bg .card .card-header a[aria-expanded=false] {
   background: #ffffff;
 }
 .accordion.accordion-solid-bg .card .card-header a[aria-expanded=false]:before {
-  content: "";
+  content: "\f140";
 }
 .accordion.accordion-body-filled .card {
   border-top: none;
@@ -12175,11 +12175,11 @@ pre {
   transition-property: color;
 }
 .accordion.accordion-body-filled .card .card-header a[aria-expanded=true]:before {
-  content: "";
+  content: "\f376";
   color: #0033cc;
 }
 .accordion.accordion-body-filled .card .card-header a[aria-expanded=false]:before {
-  content: "";
+  content: "\f417";
   color: #dde4eb;
 }
 .accordion.accordion-body-filled .card .card-body {
@@ -14250,7 +14250,7 @@ pre {
   opacity: 0;
   filter: alpha(opacity=0);
   transform: scale(0);
-  content: "";
+  content: "\f12c";
   position: absolute;
   font-size: 0.9375rem;
   font-weight: bold;
@@ -14358,7 +14358,7 @@ pre {
   left: -2px;
   color: #fbfbfb;
   background: none;
-  content: "";
+  content: "\f12c";
   font-family: Material Design Icons;
   text-align: center;
   font-weight: bold;
@@ -14379,7 +14379,7 @@ pre {
 }
 .dropdown .dropdown-toggle:after {
   border: none;
-  content: "";
+  content: "\f140";
   font-family: "Material Design Icons";
   font-size: 20px;
   color: #fff;
@@ -14619,17 +14619,17 @@ ul li {
 }
 
 .list-ticked li:before {
-  content: "";
+  content: "\f12d";
   color: #ff6258;
 }
 
 .list-arrow li:before {
-  content: "";
+  content: "\f142";
   color: #19d895;
 }
 
 .list-star li:before {
-  content: "";
+  content: "\f4ce";
   color: #ffaf00;
 }
 
@@ -19006,22 +19006,22 @@ body.avgrund-active {
   font: normal normal normal 15px/1 "Material Design Icons";
 }
 .context-menu-icon.context-menu-icon-cut:before {
-  content: "";
+  content: "\f190";
 }
 .context-menu-icon.context-menu-icon-edit:before {
-  content: "";
+  content: "\f3ef";
 }
 .context-menu-icon.context-menu-icon-copy:before {
-  content: "";
+  content: "\f18f";
 }
 .context-menu-icon.context-menu-icon-paste:before {
-  content: "";
+  content: "\f613";
 }
 .context-menu-icon.context-menu-icon-delete:before {
-  content: "";
+  content: "\f6cb";
 }
 .context-menu-icon.context-menu-icon-quit:before {
-  content: "";
+  content: "\f156";
 }
 
 .context-menu-list {
@@ -19113,7 +19113,7 @@ body.avgrund-active {
   position: relative;
 }
 .dataTables_wrapper .dataTable.collapsed tbody > tr.odd > td:first-child:before, .dataTables_wrapper .dataTable.collapsed tbody > tr.even > td:first-child:before {
-  content: "";
+  content: "\f35d";
   font-family: "Material Design Icons";
   font-size: 20px;
   color: #0033cc;
@@ -19372,7 +19372,7 @@ body.avgrund-active {
   text-rendering: auto;
   line-height: inherit;
   -webkit-font-smoothing: antialiased;
-  content: "";
+  content: "\f552";
   color: #212529;
   font-size: 1.25rem;
 }
