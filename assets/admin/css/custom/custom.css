@@ -644,4 +644,32 @@ input:checked + .slider:before {
   display: block;
 }
 
+.notifiy-bar-install {
+  position: absolute;
+  width: 99%;
+  height: 10%;
+  top: 90%;
+  overflow: hidden;
+  background-color: #5CB85C;
+  border-bottom: 1px solid #339633;
+  transition: all 1s;
+  z-index: 99999;
+}
+
+.notifiy-bar-install.close {
+  top: 100%;
+  height: 0;
+  border-bottom: 0px;
+}
+
+.notifiy-bar-install .--text {
+  font-size: 18px;
+  height: 60px;
+  margin: 0 auto;
+  width: 60%;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+}
+
 /*# sourceMappingURL=custom.css.map */
